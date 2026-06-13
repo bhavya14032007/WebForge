@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import {
   QrCode, MapPin, Clock, AlertTriangle, LayoutDashboard, Shield,
-  ArrowRight, CheckCircle, Users, BookOpen, Zap, Github, Sun, Moon,
+  ArrowRight, CheckCircle, Users, BookOpen, Zap, Code2, Sun, Moon,
   ChevronRight, Star, TrendingUp
 } from 'lucide-react';
 import { occupancySummary } from '../data/mockData';
