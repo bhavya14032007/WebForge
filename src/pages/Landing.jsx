@@ -71,7 +71,7 @@ export default function Landing({ darkMode, onToggleDark }) {
               className="btn btn-ghost btn-sm"
               aria-label="View source code on GitHub"
             >
-              <Github size={16} />
+              <Code2 size={16} />
               <span style={{ display: 'none' }} className="md:inline">GitHub</span>
             </a>
             <button className="btn btn-ghost btn-sm btn-icon" onClick={onToggleDark} aria-label="Toggle dark mode">
@@ -385,7 +385,7 @@ export default function Landing({ darkMode, onToggleDark }) {
               onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.22)'; }}
               onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.15)'; }}
             >
-              <Github size={16} /> View on GitHub
+              <Code2 size={16} /> View on GitHub
             </a>
           </div>
         </motion.div>
@@ -467,7 +467,7 @@ export default function Landing({ darkMode, onToggleDark }) {
               onMouseEnter={e => { e.currentTarget.style.color = 'white'; }}
               onMouseLeave={e => { e.currentTarget.style.color = '#64748B'; }}
             >
-              <Github size={15} /> Open Source on GitHub
+              <Code2 size={15} /> Open Source on GitHub
             </a>
           </div>
         </div>
